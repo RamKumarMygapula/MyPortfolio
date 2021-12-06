@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#header{
+	height:100vh ;
+	background:url(images/backg3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.user-box
+{
+	top: 30%;
+	left: 10%;
+}
+.user-box h1
+{
+	font-weight: bold;
+}
+.user-box p{
+	color: white;
+	margin-left:0%;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+li{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+}
+#navbarNav{
+	margin-left: 800px;
+}
+.about{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+p{
+	font-size: 20px;
+}
+.progress{
+	border-radius:6px ;
+	border-bottom:600;
+}
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius:16px ;
+	background: #000000;
+}
+.resume{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background: #f9f9f9;
+}
+.resume h3{
+	margin-bottom: 50px;
+
+}
+.timeline{
+	list-style-type: none;
+	position: relative;
+
+}
+.timeline:before{
+	content:'';
+	background: black;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+}
+.timeline li{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: #fff;
+}
+.timeline li h4
+{
+	background-color:black;
+	padding-top: 5px 0 5px 20px;
+	column-rule-color: white;
+	font-size: 15px;
+	color: white;
+
+}
+.timeline li:before{
+	content: '';
+	background: #fff;
+	position: absolute;
+	border-radius: 50%;
+	display: inline-block;
+	border: 3px solid black;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+
+}
+.contact{
+	height:100vh ;
+	padding-top: 50px;
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/backg4.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+		background-size: cover;
+		color: #fff;
+
+}
+.contact .row{
+	padding: 30px 0;
+	font-size: 22px;
+}
+.contact .col-md-4 .bi{
+	padding: 10px;
+	font-size: 40px;
+}
+.contact .btn{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+.contact .btn:focus{
+	box-shadow: none !important;
+}
+.contact .btn:hover{
+	border: 2px solid #000 !important;
+	background: #000 !important ;
+	transition: 0.6s;
+}
+.social-icons{
+	top: 50%;
+	transform:translateY(-50%) ;
+	position: fixed;
+	z-index:1 ;
+	width: 100px;
+}
+.social-icons ul{
+	padding: initial;
+}
+.social-icons ul li{
+	height: 60px;
+	width: 50px;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: black;
+}
+
+
